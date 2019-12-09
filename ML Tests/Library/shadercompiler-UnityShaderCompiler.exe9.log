@@ -1,0 +1,108 @@
+Base path: 'C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Generic.compute(379): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at Generic.compute(392): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at Generic.compute(408): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=15451 outsize=1689 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=9919 outsize=1831 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(12): 'kernal' : unknown pragma ignored
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(1261): 'ix': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used
+  api=4 insize=44328 outsize=2583 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(12): 'kernal' : unknown pragma ignored
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(1261): 'ix': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used
+  api=4 insize=44328 outsize=1306 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(12): 'kernal' : unknown pragma ignored
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(1261): 'ix': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used
+  api=4 insize=44328 outsize=1762 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(12): 'kernal' : unknown pragma ignored
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(1261): 'ix': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used
+  api=4 insize=44328 outsize=1865 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(12): 'kernal' : unknown pragma ignored
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(1261): 'ix': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used
+  api=4 insize=44328 outsize=1379 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=28299 outsize=1059 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=28299 outsize=850 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=28299 outsize=849 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=28299 outsize=1509 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=28299 outsize=1273 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=28299 outsize=1616 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=4053 outsize=1700 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 9 at Generic.compute(379): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 9 at Generic.compute(392): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 9 at Generic.compute(408): signed/unsigned mismatch, unsigned assumed
+  api=9 insize=15451 outsize=3531 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Generic.compute(379): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at Generic.compute(392): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at Generic.compute(408): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=15451 outsize=1004 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Generic.compute(379): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at Generic.compute(392): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at Generic.compute(408): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=15451 outsize=2540 ok=1
+Cmd: compileComputeKernel
+  api=9 insize=9919 outsize=4551 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=9919 outsize=1863 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 9 at BarracudaReferenceImpl.compute(12): 'kernal' : unknown pragma ignored
+  error: 1 plat 9 at BarracudaReferenceImpl.compute(1255): array reference cannot be used as an l-value; not natively addressable, forcing loop to unroll
+  error: 1 plat 9 at BarracudaReferenceImpl.compute(1261): 'ix': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used
+  error: 1 plat 9 at BarracudaReferenceImpl.compute(1265): array reference cannot be used as an l-value; not natively addressable, forcing loop to unroll
+  api=9 insize=44328 outsize=15986 ok=1
+Cmd: compileComputeKernel
+  api=9 insize=64076 outsize=16342 ok=1
+Cmd: compileComputeKernel
+  api=9 insize=28299 outsize=1942 ok=1
+Cmd: compileComputeKernel
+  api=9 insize=28299 outsize=1745 ok=1
+Cmd: compileComputeKernel
+  api=9 insize=28299 outsize=2663 ok=1
+Cmd: compileComputeKernel
+  api=9 insize=28299 outsize=3083 ok=1
+Cmd: compileComputeKernel
+  api=9 insize=28299 outsize=2753 ok=1
+Cmd: compileComputeKernel
+  api=9 insize=28299 outsize=2731 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=28299 outsize=677 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=28299 outsize=1000 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=28299 outsize=696 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=28299 outsize=867 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=28299 outsize=1532 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=28299 outsize=1345 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=28299 outsize=1296 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=28299 outsize=1372 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=23440 outsize=2627 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=23440 outsize=9502 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=4053 outsize=1575 ok=1
+Cmd: compileComputeKernel
+  api=9 insize=1810 outsize=6058 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=944 outsize=1414 kw=UNITY_PASS_SHADOWCASTER SHADOWS_DEPTH pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING ok=1
