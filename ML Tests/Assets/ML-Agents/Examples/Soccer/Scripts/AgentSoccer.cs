@@ -167,6 +167,7 @@ public class AgentSoccer : Agent
         transform.Rotate(rotateDir, Time.deltaTime * 100f);
         agentRb.AddForce(dirToGo * m_Academy.agentRunSpeed,
             ForceMode.VelocityChange);
+        AddReward(-1.0f / 250.0f);
     }
 
     public override void AgentAction(float[] vectorAction)
@@ -195,7 +196,7 @@ public class AgentSoccer : Agent
             var dir = c.contacts[0].point - transform.position;
             dir = dir.normalized;
             c.gameObject.GetComponent<Rigidbody>().AddForce(dir * force);
-            AddReward(1.0f / 10.0f);
+            AddReward(1.0f / 5.0f);
         }
     }
 

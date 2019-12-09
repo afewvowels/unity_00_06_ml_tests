@@ -17,8 +17,6 @@ public class PlayerState
 
 public class SoccerFieldArea : MonoBehaviour
 {
-    public static int blueScore = 0;
-    public static int purpleScore = 0;
     public GameObject ball;
     [FormerlySerializedAs("ballRB")]
     [HideInInspector]

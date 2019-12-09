@@ -695,10 +695,10 @@ MonoBehaviour:
   gravityMultiplier: 1
   randomizePlayersTeamForTraining: 0
   agentRunSpeed: 2
-  strikerPunish: -3
-  strikerReward: 4
-  goaliePunish: -4
-  goalieReward: 3
+  strikerPunish: -6
+  strikerReward: 10
+  goaliePunish: -6
+  goalieReward: 8
 --- !u!4 &1574236049
 Transform:
   m_ObjectHideFlags: 0
