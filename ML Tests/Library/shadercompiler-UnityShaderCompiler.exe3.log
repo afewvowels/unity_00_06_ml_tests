@@ -1,4 +1,53 @@
-Base path: 'C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2019.3.0f1/Editor/Data/PlaybackEngines'
+Base path: 'C:/Program Files/Unity/Hub/Editor/2019.2.11f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2019.2.11f1/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Generic.compute(379): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at Generic.compute(392): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at Generic.compute(408): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=15451 outsize=1103 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=64076 outsize=5347 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=9919 outsize=2271 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=23440 outsize=10693 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(12): 'kernal' : unknown pragma ignored
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(1261): 'ix': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used
+  api=4 insize=44328 outsize=1574 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(12): 'kernal' : unknown pragma ignored
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(1261): 'ix': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used
+  api=4 insize=44328 outsize=1309 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(12): 'kernal' : unknown pragma ignored
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(1261): 'ix': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used
+  api=4 insize=44328 outsize=1450 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(12): 'kernal' : unknown pragma ignored
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(1261): 'ix': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used
+  api=4 insize=44328 outsize=1762 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(12): 'kernal' : unknown pragma ignored
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(1261): 'ix': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used
+  api=4 insize=44328 outsize=1860 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(12): 'kernal' : unknown pragma ignored
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(1261): 'ix': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used
+  api=4 insize=44328 outsize=1326 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=28299 outsize=706 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=28299 outsize=1000 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=28299 outsize=791 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=28299 outsize=1808 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=28299 outsize=1427 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=28299 outsize=1233 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=28299 outsize=1372 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=1602 outsize=2002 kw=UNITY_PASS_FORWARDBASE DIRECTIONAL SHADOWS_SCREEN LIGHTPROBE_SH _ALPHATEST_ON pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+  api=4 type=1 insize=1596 outsize=4662 kw=UNITY_PASS_FORWARDBASE DIRECTIONAL SHADOWS_SCREEN LIGHTPROBE_SH _ALPHATEST_ON _SPECULARHIGHLIGHTS_OFF _GLOSSYREFLECTIONS_OFF pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1

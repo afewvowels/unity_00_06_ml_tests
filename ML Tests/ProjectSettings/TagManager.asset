@@ -21,6 +21,7 @@ TagManager:
   - purpleGoalDetect
   - iWall
   - middleDetect
+  - soccerarena
   layers:
   - Default
   - TransparentFX

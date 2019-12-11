@@ -69,30 +69,30 @@ BigWallJump:
     normalize: false
 
 Striker:
-    max_steps: 5.0e6
+    max_steps: 5.0e5
     learning_rate: 1e-4
     batch_size: 256
     num_epoch: 5
-    buffer_size: 8192
+    buffer_size: 4096
     beta: 1.0e-2
     hidden_units: 256
     summary_freq: 2000
-    time_horizon: 128
+    time_horizon: 256
     num_layers: 2
-    normalize: true
+    normalize: false
 
 Goalie:
-    max_steps: 5.0e6
+    max_steps: 5.0e5
     learning_rate: 1e-4
     batch_size: 256
     num_epoch: 5
-    buffer_size: 8192
+    buffer_size: 4096
     beta: 1.0e-2
     hidden_units: 256
     summary_freq: 2000
-    time_horizon: 128
+    time_horizon: 256
     num_layers: 2
-    normalize: true
+    normalize: false
 
 Pyramids:
     summary_freq: 2000

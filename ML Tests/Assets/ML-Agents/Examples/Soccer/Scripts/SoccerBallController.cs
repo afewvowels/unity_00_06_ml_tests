@@ -102,13 +102,29 @@ public class SoccerBallController : MonoBehaviour
             area.GoalTouched(AgentSoccer.Team.Blue);
             if (lastTouchedBy.team == AgentSoccer.Team.Purple)
             {
-                purpleStriker.AddReward(-4.0f);
-                purpleGoalie.AddReward(-4.0f);
+                if (lastTouchedBy.agentRole == AgentSoccer.AgentRole.Striker)
+                {
+                    purpleStriker.AddReward(-5.0f);
+                    purpleGoalie.AddReward(-3.0f);
+                }
+                else
+                {
+                    purpleStriker.AddReward(-2.0f);
+                    purpleGoalie.AddReward(-2.0f);
+                }
             }
             if (lastTouchedBy.team == AgentSoccer.Team.Blue)
             {
-                blueStriker.AddReward(2.0f);
-                blueGoalie.AddReward(2.0f);
+                if (lastTouchedBy.agentRole == AgentSoccer.AgentRole.Striker)
+                {
+                    blueStriker.AddReward(-5.0f);
+                    blueGoalie.AddReward(-3.0f);
+                }
+                else
+                {
+                    blueStriker.AddReward(-2.0f);
+                    blueGoalie.AddReward(-2.0f);
+                }
             }
         }
         if (col.gameObject.CompareTag(blueGoalTag)) //ball touched blue goal

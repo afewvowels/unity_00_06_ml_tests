@@ -196,7 +196,7 @@ public class AgentSoccer : Agent
             var dir = c.contacts[0].point - transform.position;
             dir = dir.normalized;
             c.gameObject.GetComponent<Rigidbody>().AddForce(dir * force);
-            AddReward(1.0f / 5.0f);
+            AddReward(1.0f / 15.0f);
         }
     }
 
@@ -204,7 +204,7 @@ public class AgentSoccer : Agent
     {
         if (c.gameObject.CompareTag("ball"))
         {
-            AddReward(1.0f / 50.0f);
+            AddReward(1.0f / 100.0f);
         }
     }
 
@@ -234,26 +234,26 @@ public class AgentSoccer : Agent
 
     public override void CollectObservations()
     {
-        AddVectorObs(soccerBall.transform.position);
-        AddVectorObs(this.transform.position);
+        // AddVectorObs(soccerBall.transform.position);
+        // AddVectorObs(this.transform.position);
 
-        AddVectorObs(agentRb.velocity.x);
-        AddVectorObs(agentRb.velocity.z);
+        // AddVectorObs(agentRb.velocity.x);
+        // AddVectorObs(agentRb.velocity.z);
 
-        AddVectorObs(sbRBody.velocity.x);
-        AddVectorObs(sbRBody.velocity.z);
+        // AddVectorObs(sbRBody.velocity.x);
+        // AddVectorObs(sbRBody.velocity.z);
 
-        AddVectorObs(sameTeam.transform.position);
-        AddVectorObs(sameTeamRB.velocity.x);
-        AddVectorObs(sameTeamRB.velocity.z);
+        // AddVectorObs(sameTeam.transform.position);
+        // AddVectorObs(sameTeamRB.velocity.x);
+        // AddVectorObs(sameTeamRB.velocity.z);
 
-        AddVectorObs(otherTeamStriker.transform.position);
-        AddVectorObs(otherTeamStrikerRB.velocity.x);
-        AddVectorObs(otherTeamStrikerRB.velocity.z);
+        // AddVectorObs(otherTeamStriker.transform.position);
+        // AddVectorObs(otherTeamStrikerRB.velocity.x);
+        // AddVectorObs(otherTeamStrikerRB.velocity.z);
 
-        AddVectorObs(otherTeamGoalie.transform.position);
-        AddVectorObs(otherTeamGoalieRB.velocity.x);
-        AddVectorObs(otherTeamGoalieRB.velocity.z);
+        // AddVectorObs(otherTeamGoalie.transform.position);
+        // AddVectorObs(otherTeamGoalieRB.velocity.x);
+        // AddVectorObs(otherTeamGoalieRB.velocity.z);
     }
 
     public void SetResetParameters()
